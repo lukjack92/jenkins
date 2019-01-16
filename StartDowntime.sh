@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Start downtime"
 
-mv /var/www/html/downtime/index.html.save /var/www/html/downtime/index.html 2>/$
+mv /var/www/html/downtime/index.html.save /var/www/html/downtime/index.html 2>/dev/null
 if [[ $? == 0 ]]; then
   echo "StartDowntime is run - downtime is enable"
 else
