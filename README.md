@@ -1,3 +1,3 @@
 # jenkins
 
-Test script from GITHUB run with help Jenkins.
+The script StartDowntime.sh and StopDowntime.sh from GitHub are runinig with help Jenkins.
