@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Stop downtime"
+
+mv /var/www/html/downtime/index.html /var/www/html/downtime/index.html.save 2>/$
+if [[ $? == 0 ]]; then
+  echo "StartDowntime is run - downtime is disable"
+else
+  echo "StopDowntime has been run"
+fi
